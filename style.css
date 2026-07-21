@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;   /* elements are laid our horizontally */
+    justify-content: space-between; /* space between the elements */
+    align-items: center; /* vertically center the elements */
+
+    padding: 0px 20px; /* Adds space around the nested elements */
+    background-color: #333;
+    
+}
+
+.logo__img {
+    display:block;  /* removes the default inline spacing around the image */
+    width: 50px;
+    height: 50px;
+}
+
+.nav__list {
+    display: flex; /* Places items in a row or horizontal layout */
+    gap: 20px; /* Adds space between the navigation links */
+
+    /* Resets the default list styling */
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Removes the default bullet points from the list */
+    
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.nav__link {
+    display:block; /* Makes the entire area of the link clickable; makes it possible to set dimensions for the link */
+    padding: 0 30px; /* Adds space around the text of the link; these paddings are part of the clickable area */
+
+    /* need to remove padding in .header, so links occupy the full height */
+    /* then it's possible to click not only on the text but also above and below it */
+    line-height: 60px; /* Sets the height of the line to match the height of the header, making the entire area clickable */
+    color: #fff;
+    text-decoration: none; /* Removes the underline from the links */
+    background-color: #444;
+    
+    
+}

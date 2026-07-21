@@ -1,0 +1,13 @@
+/* Write your styles here */
+.fieldset {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.row {
+  display: block;
+  margin-bottom: 10px;
+}
